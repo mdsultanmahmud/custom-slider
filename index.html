@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>this is an custom image slider</title>
+    <title>custom image slider</title>
+
+    <style>
+        section {
+            height: 100vh;
+        }
+        #slider-img{
+            width: 60%;
+            height: 70vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 <body>
-    <h1>Hi, This is an custom image slider</h1>
+   <header>
+    <section>
+        <img id="slider-img" src="images/image1.jpg" alt="">
+    </section>
+   </header>
+    <script src="slider.js"></script>
 </body>
 </html>
